@@ -7,7 +7,7 @@
 Start with a Session, and `go` to the URL you need to test:
 
 ```ruby
-session = Serubyum.NewSession.go("www.google.com")
+session = Serubyum.new_session.go("www.google.com")
 ```
 
 From here, you can grab the title from the page:
