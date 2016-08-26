@@ -3,5 +3,7 @@ require "serubyum/session"
 require "serubyum/element"
 
 module Serubyum
-  # Your code goes here...
+  def self.new_session
+    return Session.new.connect
+  end
 end
